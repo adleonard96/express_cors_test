@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors()); // allows all origins
+// app.use(cors()); // allows all origins
 
 app.get("/", (req, res) => {
   res.send("CORS enabled for all origins");
